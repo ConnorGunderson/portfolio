@@ -20,7 +20,7 @@ export const Projects = () => {
         <a
           href='https://caroosel.vercel.app/'
           style={{ height: 300, width: 300 }}
-          className='relative flex'
+          className='relative'
           target='_blank'
         >
           <figure style={{ height: 250, width: 300 }} className="relative">
@@ -32,13 +32,13 @@ export const Projects = () => {
               priority
             />
           </figure>
-          <figcaption className="flex-1 flex justify-center items-center text-xl">Caroosel</figcaption>
+          <figcaption className="inline-block py-2 justify-center items-center text-xl">Caroosel</figcaption>
         </a>
         
         <a
           href='https://poke-arena.vercel.app/'
           style={{ height: 300, width: 300 }}
-          className='relative flex'
+          className='relative'
           target='_blank'
         >
           <figure style={{ height: 250, width: 300 }} className="relative">
@@ -50,12 +50,12 @@ export const Projects = () => {
               priority
             />
           </figure>
-          <figcaption className="flex-1 flex justify-center items-center text-xl">PokeArena (WIP)</figcaption>
+          <figcaption className="inline-block py-2 justify-center items-center text-xl">PokeArena (WIP)</figcaption>
         </a>
         <a
           href='https://muskegon-defenders.vercel.app'
           style={{ height: 300, width: 300 }}
-          className='relative flex'
+          className='relative'
           target='_blank'
         >
           <figure style={{ height: 250, width: 300 }} className="relative">
@@ -67,7 +67,7 @@ export const Projects = () => {
               priority
             />
           </figure>
-          <figcaption className="flex-1 flex justify-center items-center text-xl">MPD (WIP)</figcaption>
+          <figcaption className="inline-block py-2 justify-center items-center text-xl">MPD (WIP)</figcaption>
         </a>
       </nav>
     </section>
