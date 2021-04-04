@@ -1,1 +1,0 @@
-{"ast":null,"code":"export { About } from './About';\nexport { Contact } from './Contact';\nexport { Projects } from './Projects';\nexport { Skills } from './Skills';","map":null,"metadata":{},"sourceType":"module"}
