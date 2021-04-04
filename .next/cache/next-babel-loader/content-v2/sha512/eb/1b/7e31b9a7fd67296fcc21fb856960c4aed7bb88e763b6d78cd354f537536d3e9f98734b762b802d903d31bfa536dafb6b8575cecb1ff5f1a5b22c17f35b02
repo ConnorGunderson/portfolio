@@ -1,0 +1,1 @@
+{"ast":null,"code":"export default {\n  type: 'website',\n  url: 'https://connorgunderson.vercel.app',\n  canonical: \"https://connorgunderson.vercel.app\",\n  title: 'Connor Gunderson',\n  description: \"Connor Gunderson's professional portfolio\"\n};","map":null,"metadata":{},"sourceType":"module"}
