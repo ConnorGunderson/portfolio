@@ -1,4 +1,3 @@
-import { useObserver } from '@/utils/intersection-observer';
 import {
   SiTypescript,
   SiGraphql,
@@ -20,13 +19,11 @@ import { IoLogoVercel } from 'react-icons/io5';
 import { AiOutlineCode } from 'react-icons/ai';
 
 export const Skills = () => {
-  const { ref } = useObserver();
 
   return (
     <section
       className={`flex flex-col w-full bg-purple-200 `}
       style={{ minHeight: '500px' }}
-      ref={ref}
       id='skills'
     >
       <header className='flex flex-col justify-center items-center'>

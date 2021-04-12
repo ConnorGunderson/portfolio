@@ -1,15 +1,12 @@
-import { useObserver } from '@/utils/intersection-observer';
 import Image from 'next/image';
 import { IoRocketSharp } from 'react-icons/io5';
 
 export const Projects = () => {
-  const { ref } = useObserver();
   return (
     <section
       id='projects'
       className={`flex flex-col w-full bg-white `}
       style={{ minHeight: '500px' }}
-      ref={ref}
     >
       <header className='flex flex-col justify-center items-center'>
         <h2 className='mx-auto text-center text-4xl p-2 border-b-2  border-purple-400'>

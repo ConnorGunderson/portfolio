@@ -1,6 +1,7 @@
 import { Layout } from '@/components/layout';
 import { About, Contact, Projects, Skills } from '@/components/page-sections';
-import { ObserverProvider } from '@/utils/intersection-observer';
+import { useEffect, useState } from 'react';
+import {useInView} from 'react-intersection-observer'
 
 const pageSections = [About, Skills, Projects, Contact];
 
@@ -8,12 +9,12 @@ const Home = () => {
   return (
     <Layout>
       {pageSections.map(
-        (Child: () => JSX.Element, index: number): JSX.Element => {
+        (Child, index: number): JSX.Element => {
           return (
-            <ObserverProvider key={index + 'home'}>
-              <Child />
-            </ObserverProvider>
-          );
+            <section className="page-fade">
+              <Child key={index + 'pageSection'} />
+            </section>
+          )
         }
       )}
     </Layout>

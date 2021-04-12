@@ -1,14 +1,10 @@
 import { GiSpartanHelmet } from 'react-icons/gi';
-import { useObserver } from '@/utils/intersection-observer';
 import { SiGithub } from 'react-icons/si';
 import { IoPersonCircleOutline } from 'react-icons/io5';
 export const About = () => {
-  const { ref } = useObserver();
-
   return (
     <div
-      className={` flex flex-col md:h-about justify-center items-center md:flex-row`}
-      ref={ref}
+      className={`flex flex-col md:h-about justify-center items-center md:flex-row`}
       id='about'
     >
       <section className='md:w-2/6 py-8 flex flex-col justify-center items-center'>
@@ -24,7 +20,7 @@ export const About = () => {
           </p>
           <b>Media and Information</b>
           <b>22 Years Old</b>
-          <div className="flex items-center">
+          <div className='flex items-center'>
             <a
               href='https://github.com/ConnorGunderson'
               className='mt-4'
@@ -40,13 +36,12 @@ export const About = () => {
               CV
             </a>
           </div>
-
         </article>
       </section>
       <section className='flex-1 flex flex-col mx-auto p-5'>
         <header>
           <h2 className='mx-auto text-center text-4xl p-2 border-b-2 w-52  border-purple-400'>
-            About <IoPersonCircleOutline className='inline'/>
+            About <IoPersonCircleOutline className='inline' />
           </h2>
         </header>
         <article className='pt-8'>

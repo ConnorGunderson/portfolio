@@ -76,5 +76,20 @@ a:focus, button:focus {
 }
 
 .contactForm textarea, .contactForm input {
-  @apply p-1 mt-1 focus:ring-2 focus:ring-purple-700 transition-all border border-purple-700 rounded-sm
+  @apply p-1 mt-1 focus:ring-2 focus:ring-purple-700 transition-all border border-purple-700 rounded-sm;
+}
+
+.page-fade {
+  animation: page-fade 250ms linear;
+}
+
+@keyframes page-fade {
+  from {
+    opacity: 25%;
+    transform: scale3d(7px, -7px, 0);
+  }
+  to {
+    opacity: 100%;
+    transform: scale3d(7px, -7px, 0);
+  }
 }

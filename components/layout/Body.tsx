@@ -2,15 +2,14 @@ import _ from 'lodash';
 
 import { Footer } from '.';
 import { NavBar } from '.';
-interface BodyProps {
-  children: JSX.Element[] | JSX.Element | any;
-}
 
-export const Body = ({ children }: BodyProps) => {
+export const Body = ({ children }) => {
   return (
     <main className={`h-full relative`}>
       <NavBar />
-      {children}
+      <div >
+        {children}
+      </div>
       <Footer />
     </main>
   );

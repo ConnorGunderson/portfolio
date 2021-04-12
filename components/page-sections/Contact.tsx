@@ -1,12 +1,10 @@
 import { useEmail } from '@/lib/email';
-import { useObserver } from '@/utils/intersection-observer';
 import { FiMail } from 'react-icons/fi';
 import { SuccessModal } from '../layout/SuccessModal';
 
 
 
 export const Contact = () => {
-  const { ref } = useObserver();
   const {
     senderName,
     senderEmail,
@@ -20,7 +18,6 @@ export const Contact = () => {
       id='projects'
       className={`flex flex-col w-full  bg-purple-200 `}
       style={{ minHeight: '500px' }}
-      ref={ref}
     >
       <header className='flex flex-col justify-center items-center'>
         <h2 className='mx-auto text-center text-4xl p-2 border-b-2  border-purple-400'>
@@ -30,7 +27,6 @@ export const Contact = () => {
       <form
         onSubmit={(e) => sendEmail(e)}
         className={`contactForm flex flex-col  justify-center items-center h-500 py-4`}
-        ref={ref}
         id='contact'
       >
         <div style={{width: 200}}>
