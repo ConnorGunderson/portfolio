@@ -1,16 +1,12 @@
-import _ from 'lodash';
+import { ComponentWithChildren } from '../../types'
+import { Footer, NavBar } from '.'
 
-import { Footer } from '.';
-import { NavBar } from '.';
-
-export const Body = ({ children }) => {
+export const Body = ({ children }: ComponentWithChildren) => {
   return (
     <main className={`h-full relative`}>
       <NavBar />
-      <div >
-        {children}
-      </div>
+      <div>{children}</div>
       <Footer />
     </main>
-  );
-};
+  )
+}

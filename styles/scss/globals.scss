@@ -34,7 +34,7 @@
 @keyframes skill-slider {
   from {
     transform: translateX(-100px);
-  } 
+  }
   to {
     transform: translateX(100px);
   }
@@ -85,7 +85,7 @@ button:active {
         opacity: 1;
       }
     }
-    $scale: random(2) + .7;
+    $scale: random(2) + 0.7;
 
     @keyframes scale-frames {
       0% {
@@ -102,7 +102,6 @@ button:active {
 
   $particleBaseSize: 8;
 
-  
   @for $i from 1 through $particleNum {
     &:nth-child(#{$i}) {
       $circleSize: random($particleBaseSize);
@@ -110,7 +109,7 @@ button:active {
       height: $circleSize + px;
 
       $startPositionY: random(5) + 30;
-      $framesName: "move-frames-" + $i;
+      $framesName: 'move-frames-' + $i;
       $moveDuration: 15000 + random(9000) + ms;
 
       animation-name: #{$framesName};

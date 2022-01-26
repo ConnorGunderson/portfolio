@@ -9,7 +9,8 @@ body {
   margin: 0;
   padding: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif, Source Sans Pro;
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif,
+    Source Sans Pro;
   scroll-behavior: smooth;
 }
 
@@ -36,7 +37,7 @@ a:hover {
 }
 
 .navbar a {
-  @apply px-2
+  @apply px-2;
 }
 
 .skills h3 {
@@ -58,24 +59,26 @@ a:hover {
 .projectNav a:hover {
   transform: scale(105%);
 }
-a:focus, button:focus {
+a:focus,
+button:focus {
   outline: 0;
-  @apply ring-2 ring-purple-300
+  @apply ring-2 ring-purple-300;
 }
 
 .contactForm {
-  @apply w-5/6 md:w-3/4 lg:w-3/5 h-3/4 mx-auto my-4
+  @apply w-5/6 md:w-3/4 lg:w-3/5 h-3/4 mx-auto my-4;
 }
 
 .contactForm div {
   width: 400px;
-  @apply flex flex-col mx-auto my-1
+  @apply flex flex-col mx-auto my-1;
 }
 .contactForm input {
-  @apply w-full
+  @apply w-full;
 }
 
-.contactForm textarea, .contactForm input {
+.contactForm textarea,
+.contactForm input {
   @apply p-1 mt-1 focus:ring-2 focus:ring-purple-700 transition-all border border-purple-700 rounded-sm;
 }
 

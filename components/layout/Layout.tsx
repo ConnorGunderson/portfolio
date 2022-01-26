@@ -1,11 +1,11 @@
-import { Body, Header } from '.';
-import { SuccessModal } from './SuccessModal';
+import { Body, Header } from '.'
+import { ComponentWithChildren } from '../../types'
 
-export const Layout = ({ children }): JSX.Element => {
+export const Layout = ({ children }: ComponentWithChildren) => {
   return (
     <>
       <Header />
       <Body>{children}</Body>
     </>
-  );
-};
+  )
+}

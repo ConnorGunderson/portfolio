@@ -1,17 +1,17 @@
-import { NextSeo } from 'next-seo';
+import { NextSeo } from 'next-seo'
 
-import '@/styles/tailwind.css';
-import '@/styles/globals.css';
-import SEOConfig from '@/config/next-seo.config';
-import { EmailProvider } from '@/lib/email';
+import '../styles/tailwind.css'
+import '../styles/globals.css'
+
+import nextSEOConfig from '../config/next-seo.config'
 
 function MyApp({ Component, pageProps }) {
   return (
-    <EmailProvider>
-      <NextSeo openGraph={SEOConfig} />
+    <>
+      <NextSeo openGraph={nextSEOConfig} />
       <Component {...pageProps} />
-    </EmailProvider>
-  );
+    </>
+  )
 }
 
-export default MyApp;
+export default MyApp
