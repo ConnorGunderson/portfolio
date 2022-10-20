@@ -4,4 +4,4 @@
 >
 > site: [https://connorgunderson.vercel.app](https://connorgunderson.vercel.app)
 >
-> ## Yarn & Yarn dev to explore the application
+> ## npm & npm run dev to explore the application

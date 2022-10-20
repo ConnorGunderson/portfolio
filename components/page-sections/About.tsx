@@ -20,8 +20,8 @@ export const About = () => {
             Michigan State University{' '}
             <GiSpartanHelmet className="inline" size="2em" />
           </p>
-          <b>Media and Information</b>
-          <b>23 Years Old</b>
+          <b>Bachelors in Media and Information</b>
+          <b>24 Years Old</b>
           <div className="flex items-center">
             <a
               href="https://github.com/ConnorGunderson"
@@ -32,7 +32,7 @@ export const About = () => {
               <SiGithub size="3em" />
             </a>
             <a
-              href="/connor_gunderson_resume.pdf"
+              href="/Connor_Gunderson_Software_Engineer.pdf"
               className="mt-4 font-bold ml-4 text-4xl text-center"
               target="_blank"
             >
@@ -49,11 +49,9 @@ export const About = () => {
         </header>
         <article className="pt-8">
           <p>
-            <NewLine>Hello! </NewLine>I am currently a Senior at Michigan State
-            University persuing a Media and Information degree. I am a
-            NodeJS/JavaScript + React web developer and designer. In other
-            words; I design, code, and help bring businesses online through web
-            programming.
+            <NewLine>Hello! </NewLine> I am a Software Engineer III at Generac -
+            Tank Utility. I am always open to new and exciting opportunities.
+            Please feel free to email me at gundydev@gmail.com for any inquires.
           </p>
           <p className="pt-8">
             <NewLine>My </NewLine>main focus and goal for my future as a

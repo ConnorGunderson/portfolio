@@ -29,5 +29,6 @@
     "no-undef": "off",
     "no-unused-vars": "warn",
     "@next/next/no-img-element": "off"
-  }
+  },
+  "ignorePatterns": ["*.html"]
 }

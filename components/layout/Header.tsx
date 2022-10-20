@@ -25,7 +25,8 @@ export const Header = () => {
           <h1 className="text-3xl md:text-5xl font-medium text-white">
             <span className="text-purple-700">Connor</span> Gunderson
           </h1>
-          <p className="text-white">Software Engineer</p>
+          <p className="text-white">Software Engineer III</p>
+          <p className="text-white">gundydev@gmail.com for inquires</p>
           <Image
             src="/avatar.jpeg"
             alt="avatar"
